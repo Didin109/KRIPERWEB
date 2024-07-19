@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Warna latar belakang gelap */
+    color: #ffffff; /* Warna teks putih */
+}
+
+header {
+    background-color: #1a1a1a; /* Warna latar belakang header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ff00; /* Garis bawah header hijau */
+}
+
+header h1 {
+    margin: 0;
+    color: #00ff00; /* Warna teks hijau */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00ff00; /* Warna tautan hijau */
+    text-decoration: none;
+}
+
+.rank-list {
+    padding: 20px;
+    background-color: #1a1a1a; /* Latar belakang bagian rank */
+}
+
+.rank {
+    background-color: #2e2e2e; /* Latar belakang rank abu-abu gelap */
+    border: 1px solid #00ff00; /* Border hijau */
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.rank h3 {
+    color: #00ff00; /* Warna judul rank hijau */
+}
+
+.rank ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rank ul li {
+    margin-bottom: 5px;
+}
+
+.rank p {
+    color: #ffffff; /* Warna teks harga putih */
+    margin: 0;
+}
+
+footer {
+    background-color: #1a1a1a; /* Latar belakang footer */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #00ff00; /* Garis atas footer hijau */
+}
+
+footer a {
+    color: #00ff00; /* Warna tautan footer hijau */
+    text-decoration: none;
+}
